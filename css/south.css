@@ -1,0 +1,26 @@
+h1{font-size: 60px;}
+h2{font-size: 40px;}
+a:hover {
+	/*設定滑鼠移經的連結*/
+	text-decoration:underline;
+	background-color:#00FFFF;
+	color:gray;
+}
+.div-center{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.tdtext{
+	color:#000088;
+	font-family: Microsoft JhengHei;
+	font-weight:bolder;
+	font-size:30px;
+}
+
+.tdbutton{
+	background-image: url(../image/button.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	text-align: center;
+}
