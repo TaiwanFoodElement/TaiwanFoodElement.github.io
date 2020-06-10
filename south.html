@@ -15,6 +15,21 @@
       text-align:center;
       }
     </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+	window.onload = function () {
+	$(".load").fadeOut(500);
+	$("p").addClass("animated rotateIn");
+	};
+	$(document).ready(function() {
+		$("img").mouseover(function(){
+			$(this).addClass("animated tada infinite");
+		});
+		$("img").mouseout(function(){
+			$(this).removeClass();
+		});
+	});
+</script>
   </head>
   <body>
   <h1 style="text-align:center;"><u>首頁</u></h1>
@@ -62,7 +77,11 @@
     </li>
     </ul>
     <!--menu-->
-    
+<div class="load">
+<div class="loader">
+</div>
+<p>載入中...</p>
+</div>
 <div class="div-center">
 	<p>我們在這裡列出了南部各縣市的美食導覽網站，你會發現只要用心尋找，所謂的小吃可以是多麼的平價又美味，為什麼會有那麼多部落客在各個網站上列出以擺為單位的美食推薦名單，平易近人地滿足老百姓們的胃，這是屬於台灣南部飲食文化的特色，你可以從下方的網站中了解這件事。</p>
 	<table class="tdtext" style="border:3px #9900FF solid;border-top:3px #FFD382 solid;border-bottom:3px #82FFFF solid;" cellpadding="10" border="1">><tbody>
@@ -96,6 +115,7 @@
 	<p class="animated rotateIn"><a href="https://kellylife.tw/category/%e5%98%89%e7%be%a9%e7%be%8e%e9%a3%9f/" rel="nofollow">部落客-嘉義美食-台南女孩凱利吃透透</a></p>
   </td>
 </tr>
+
 <tr>
   <td class="tdbutton">
   	<h3 class="animated rotateIn">臺南：</h3>
@@ -110,6 +130,7 @@
       <a href="https://nixojov.pixnet.net/blog/post/343492834-%E5%8F%B0%E5%8D%97%E6%8E%A8%E8%96%A6%E5%A5%BD%E5%90%83%E7%9A%84%E7%BE%8E%E9%A3%9F%E5%B0%8F%E5%90%83%E3%80%81%E9%A4%90%E5%BB%B3%E3%80%81%E6%97%85%E9%81%8A%E6%99%AF%E9%BB%9E-" target="_blank" title="SweetRainbow"><img src="image/SweetRainbow.png" width="100%" class=""></a>
   </td>
 </tr>
+
 <tr>
   <td width="50%">
       <a href="https://wkitty.tw/blog/post/34349083" target="_blank" title="墾丁大街"><img src="image/墾丁大街.png" width="100%" class=""></a>
