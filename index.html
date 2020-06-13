@@ -5,6 +5,23 @@
   <title>Taiwan Food</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/south.css"><!--link my css-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/><!--link CSS animate-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+	window.onload = function () {
+	$(".load").fadeOut(1000);
+	$("p").addClass("animated rotateIn");
+	};
+	$(document).ready(function() {
+		$("img").mouseover(function(){
+			$(this).addClass("animated tada infinite");
+		});
+		$("img").mouseout(function(){
+			$(this).removeClass();
+		});
+	});
+</script>
     <style type="text/css">
       body{
       font-family:'Comic Sans MS';
@@ -184,6 +201,43 @@
         </ul>
     </li>
     </ul>
+    <!--menu-->
+<div class="load">
+<p>載入中...</p>
+</div>
+<br>
+<div class="div-center">
+<table class="tdtext" width="100%" style="border:3px #9900FF solid;border-top:3px #FFD382 solid;border-bottom:3px #82FFFF solid; table-layout:fixed;" cellpadding="10" border="1"><tbody>
+<tr>
+  <td class="tdbutton">
+	<p>姚怡安</p>
+  </td>
+  <td class="tdbutton">
+    <p>林柏佑</p>
+  </td>
+  <td class="tdbutton">
+    <p>林頡蓉</p>
+  </td>
+  <td class="tdbutton">
+	<p>吳至堯</p>
+  </td>
+</tr>
+<tr>
+  <td>
+      <a href="#" target="_blank" title="姚怡安"><img src="https://www.pakutaso.com/shared/img/thumb/KUMA1892040_TP_V.jpg" width="100%" class=""></a>
+  </td>
+    <td>
+      <a href="#" target="_blank" title="林柏佑"><img src="https://www.pakutaso.com/shared/img/thumb/KUMA1892040_TP_V.jpg" width="100%" class=""></a>
+  </td>
+    <td>
+      <a href="#" target="_blank" title="林頡蓉"><img src="https://www.pakutaso.com/shared/img/thumb/KUMA1892040_TP_V.jpg" width="100%" class=""></a>
+  </td>
+      <td>
+      <a href="#" target="_blank" title="吳至堯"><img src="https://www.pakutaso.com/shared/img/thumb/KUMA1892040_TP_V.jpg" width="100%" class=""></a>
+  </td>
+</tr>
+</tbody></table>
+</div>
    </body>
 </html>
 
